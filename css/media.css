@@ -1,0 +1,271 @@
+@media only screen and (min-width:0px) and (max-width:992px) {
+    .main-top-container {
+        display: none;
+    }
+
+    .body-container-overylay {
+        padding-bottom: 60px;
+    }
+
+    .mobile-overlay {
+        width: 100%;
+        height: 100vh;
+        display: block;
+        background: rgba(0, 0, 0, .3);
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 90;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .nav-menu {
+        width: 50%;
+        height: 100vh;
+        position: fixed;
+        flex-direction: column;
+        top: 0;
+        left: -100%;
+        background: rgba(0, 0, 0, .6);
+        padding: 50px 50px;
+        color: #fff;
+        transition: 500ms;
+    }
+
+    #bars {
+        display: block;
+    }
+
+    .nav-menu-open {
+        left: 0;
+        z-index: 200;
+    }
+
+    .mobile-overlay-open {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .mid-container-top-cont {
+        width: 100%;
+    }
+
+    .mid-container-top-img {
+        display: none;
+    }
+
+    .header-overlay {
+        display: none;
+    }
+
+    .menu-content {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .menu-cont-left {
+        width: 100%;
+    }
+
+    .menu-cont-right {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width:0px) and (max-width:667px) {
+    .mid-container-category {
+        margin-top: 120px;
+    }
+
+    .mid-category-cont {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 20px;
+    }
+
+    .mid-category-box {
+        width: 100%;
+    }
+
+    .mid-category-btn {
+        margin-top: 50px;
+    }
+
+    .mid-container-bottom {
+        padding-top: 100px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mid-bottom-left {
+        width: 100%;
+        padding: 40px;
+    }
+
+    .mid-bottom-right {
+        /* max-width: 650px; */
+        width: 100%;
+        height: 330px;
+    }
+
+    .review-overlay {
+        padding: 0 56px 60px 55px;
+    }
+
+    .post-head {
+        padding: 0 50px;
+    }
+
+    footer {
+        margin-top: 100px;
+    }
+
+    .footer-container {
+        padding: 100px 25px 80px 25px;
+    }
+
+    .footer-about {
+        width: 100%;
+        flex-shrink: 0;
+    }
+
+    .footer-news {
+        width: 100%;
+        flex-shrink: 0;
+    }
+
+    .footer-social {
+        width: 100%;
+        flex-shrink: 0;
+    }
+
+    .contact-map {
+        margin: 30px auto;
+    }
+
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .contact-address {
+        width: 70%;
+        margin-left: 15px;
+        margin-bottom: 20px;
+    }
+
+    .contact-form {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .inputs-fild {
+        width: 90%;
+        gap: 10px;
+        padding-bottom: 20px;
+        padding: auto;
+        padding-left: 20px;
+    }
+
+    .textarea-fild {
+        width: 90%;
+        padding-left: 20px;
+    }
+
+    footer {
+        margin-top: 60px;
+    }
+
+    .chef-box {
+        width: 95%;
+    }
+
+    .menu-header {
+        gap: 20px;
+    }
+
+    .menu-header button {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .menu-container-bottom {
+        padding: 10px;
+        height: 1700px;
+    }
+
+}
+
+@media only screen and (min-width:667px) and (max-width:992px) {
+    .mid-category-cont {
+        display: flex;
+    }
+
+    .mid-category-box {
+        width: 50%;
+        flex-shrink: 0;
+    }
+
+    .mid-container-bottom {
+        flex-direction: column;
+        padding-top: 100px;
+        align-items: center;
+    }
+
+    .mid-bottom-left {
+        width: 100%;
+        padding: 40px;
+    }
+
+    .mid-bottom-right {
+        width: 100%;
+        height: 330px;
+    }
+
+    .post-head {
+        padding: 0 150px;
+    }
+
+    footer {
+        margin-top: 100px;
+    }
+
+    .footer-container {
+        padding: 100px 25px 80px 25px;
+    }
+
+    .footer-about {
+        width: 100%;
+        flex-shrink: 0;
+    }
+
+    .footer-news {
+        width: 100%;
+        flex-shrink: 0;
+    }
+
+    .footer-social {
+        width: 100%;
+        flex-shrink: 0;
+    }
+
+    .mid-section {
+        padding-top: 30px;
+    }
+}
+
+
+@media only screen and (min-width:992px) and (max-width:1200px) {
+    .mid-bottom-left {
+        width: 48%;
+        margin-left: 20px;
+    }
+
+    .mid-bottom-right {
+        width: 44%;
+        height: 330px;
+    }
+
+}
